@@ -1,7 +1,14 @@
+/* Core Styles */
+a {
+  text-decoration: none;
+}
+
+/* Header Styles */
 .header {
   width: 100%;
 }
 
+/* Main Logo Styles */
 .header .main-logo {
   width: 100%;
   text-align: center;
@@ -9,4 +16,24 @@
 
 .header .main-logo img {
   height: 50px;
+}
+
+/* Navbar Styles */
+.header .navbar {
+  background-color: black;
+}
+
+.header .navbar a {
+  color: white;
+  font-size: 20px;
+}
+
+.header .navbar a .nav-div {
+  padding: 10px;
+  display: inline-block;
+}
+
+.header .navbar a:hover .nav-div {
+  color: black;
+  background-color: lightgray;
 }
