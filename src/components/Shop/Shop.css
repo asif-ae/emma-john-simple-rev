@@ -1,0 +1,20 @@
+.shop-container {
+  display: flex;
+}
+
+.shop-container .products {
+  width: 70%;
+  border-right: 1px solid lightgray;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.shop-container .products .single-product {
+  border-bottom: 1px solid lightgray;
+  margin-right: -10px;
+  padding: 10px;
+}
+
+.shop-container .products .single-product:last-of-type {
+  border-bottom: none;
+}
