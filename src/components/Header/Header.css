@@ -34,6 +34,6 @@ a {
 }
 
 .header .navbar a:hover .nav-div {
-  color: black;
-  background-color: lightgray;
+  color: white;
+  background-color: darkorange;
 }
