@@ -21,10 +21,33 @@
   font-size: 20px;
 }
 
+.single-product .product-info {
+  padding: 10px;
+}
+
 .single-product:hover .product-info h3 {
   color: darkorange;
 }
 
 .single-product .product-info h3:hover {
   cursor: pointer;
+}
+
+.single-product .product-info .product-button {
+  border: 1px solid white;
+  color: white;
+  background-color: darkorange;
+  padding: 5px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.single-product .product-info .product-button:hover {
+  border: 1px solid darkorange;
+  color: darkorange;
+  background-color: white;
+}
+
+.single-product .product-info .product-button svg {
+  padding: 0 10px 0 0;
 }
