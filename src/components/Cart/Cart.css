@@ -1,0 +1,24 @@
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  float: left;
+}
+
+.text-right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.border {
+  margin: 10px -15px;
+  border-bottom: 1px solid lightgray;
+}
+
+.margin {
+  margin-bottom: 10px;
+}

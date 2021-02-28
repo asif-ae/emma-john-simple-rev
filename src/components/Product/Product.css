@@ -48,6 +48,10 @@
   background-color: white;
 }
 
+.single-product .product-info .product-button:focus {
+  outline: orange auto 1px;
+}
+
 .single-product .product-info .product-button svg {
   padding: 0 10px 0 0;
 }
